@@ -13,13 +13,23 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  material_color_gen: ^2.0.0
+  eva_icons_flutter: ^3.1.0
+  json_annotation: ^4.6.0
+  connectivity_plus: ^2.3.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+  build_runner: ^2.2.0
+  json_serializable: ^6.3.1
 
 flutter:
+
+  assets:
+    - images/
 
   uses-material-design: true
